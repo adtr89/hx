@@ -1,0 +1,16 @@
+{
+  "name": "haxball-server",
+  "version": "1.0.0",
+  "description": "Haxball headless server running with Puppeteer",
+  "main": "puppeteer-server.js",
+  "scripts": {
+    "start": "node puppeteer-server.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.8.2",
+    "chrome-aws-lambda": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
